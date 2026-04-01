@@ -17,7 +17,7 @@ Simply provide a link to a YouTube video, a PDF document, a ZIP archive, or a Go
 
 ## System Architecture
 
-OmniLearn AI is powered by **LangGraph** for robust state management and **LangChain** for LLM orchestration, utilizing **OpenRouter** (running Meta's `Llama-3.3-70B-Instruct`) as the core cognitive engine.
+OmniLearn AI is powered by **LangGraph** for robust state management and **LangChain** for LLM orchestration, utilizing **Google API** (gemini-2.5-flash`) as the core cognitive engine.
 
 ### 1. The Ingestion Engine
 The `fetch_from_url` pipeline acts as the primary data router:
